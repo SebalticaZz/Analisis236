@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.login{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: auto auto;
+    border: 2px black solid;
+    padding:10px;
+    width: 40%;
+    height: 60%;
+    border-radius: 5px;
+    background: #385170;
+    color:#fafafa
+}
+
+.login input{
+
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 50%;
+
+}
+
+form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.formCrear{
+    display:flex;
+    align-items: space-around;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.formCrear input{
+    width: 50vw;
+}
+
+.formCrear button{
+    margin-top: 20px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.boton{
+
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #142d4c;
+    font-weight: 500;
+    color: #fafafa;
+
+
+}
+
+.vistaSolicitud{
+    width: 100%;
+    background-color: #142d4c;
+    min-height: 100vh;
+}
+
+.formulario{
+    width: 55%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.crear-solicitud{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    height: 85vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding:20px 0;
+    color: #fafafa;
+    background-color: #385170;
+    margin: 20px 0;
+}
+
+.crear-solicitud input{
+    margin:0 10px;
+    width: 20vw;
+    border-radius: 5px;
+    text-align:center;
+}
+
+.crear-solicitud button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.crear-solicitud label{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.contenedorMain{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.enviarSolicitud{
+    background-color: #142d4c;
+    color:#fafafa;
+}
+
+.navbarVentas{
+    background-color: #385170;
+    
+}
+.brand{
+    color: #fafafa;
+}
+
+.estado{
+    text-transform: uppercase;
+}
+
+
+
+.listaSolicitudesIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top:20px;
+    background-color: #385170;
+    border: 2px black solid;
+    flex-flow: column;
+    padding:50px;
+    color: #fafafa;
+}
+
+.listaSolicitudesIn table{
+    color: #fafafa;
+    margin-top: 20px;
+}
+
+.listaSolicitudesIn h2{
+    margin-bottom: 20px;
+}
+
+.listaSolicitudesIn input{
+    border-radius: 10px;
+    text-align: center;
+    width:30vw
+}
+body{
+    margin: 0;
+    padding:0;
+}
+
+.ml-4, .d-inline-block{
+margin:0;
+}
